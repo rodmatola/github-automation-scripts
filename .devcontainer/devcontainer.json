@@ -1,0 +1,11 @@
+{
+	"name": "GitHub automation scripts",
+	"dockerFile": "./Dockerfile",
+	"containerEnv": {
+		"GITHUB_TOKEN": "${localEnv:GITHUB_TOKEN}"
+	},
+	"extensions": [
+		"vscode-icons-team.vscode-icons",
+		"EditorConfig.EditorConfig"
+	]
+}
